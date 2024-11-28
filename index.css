@@ -1,0 +1,52 @@
+.center {
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+  }
+  .music-card {
+    background-color: rgb(193, 176, 130);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20;
+  }
+  .video-card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .music-title {
+    text-align: center;
+  }
+  .video-title {
+    font-weight: bold;
+    font-size: large;
+  }
+
+
+  /*  Form Styling */
+  
+  
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+}
